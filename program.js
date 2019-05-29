@@ -23,11 +23,9 @@ process.stdin.on('readable', function() {
     switch(userSystem) {
         case 'linux':
             process.stdout.write(systemLang);
-            console.log('adfd');
             break;
         case 'darwin':
             process.stdout.write(systemLang);
-            console.log('adfd');
             break;
         default:
             process.stdout.write(userSystem);
